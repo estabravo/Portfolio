@@ -45,13 +45,15 @@ body {
 
 #headingGroup h1 {
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 3.7rem;
 }
 
+/*
 .navbar.scrolled {
     background: #ffffff;
     transition: background 450ms;
 }
+*/
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
@@ -71,6 +73,19 @@ body {
     margin-top: 50px;
 }
 
-nav {
-    background-color: #ffffff;
+nav:not(:hover) {
+    background: rgba(255, 255, 255, 0.93);
+    transition: background 450ms;
+}
+
+nav:hover {
+    background: #ffffff;
+    transition: background 450ms;
+    
+}
+
+#mainFooter h2 {
+    color: #fb7b57;
+    font-weight: 200;
+    font-size: 2rem;
 }
