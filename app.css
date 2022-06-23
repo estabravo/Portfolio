@@ -63,6 +63,9 @@ body {
     .blurb h2 {
         font-size: 2rem;
     }
+    #mainFooter h2 {
+        font-size: 1.2rem;
+    }
 }
 
 .icon {
