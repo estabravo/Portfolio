@@ -59,6 +59,7 @@ body {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 2.7rem;
+        overflow: hidden;
     }
     .blurb h2 {
         font-size: 2rem;
