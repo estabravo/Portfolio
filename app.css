@@ -98,6 +98,10 @@ nav:hover {
     color: #ffffff00;
 }
 
+.navbar-light .navbar-toggler {
+ color: #ffffff00;
+}
+
 
 #mainFooter h2 {
     color: #fb7b57;

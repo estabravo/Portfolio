@@ -200,7 +200,19 @@
                 $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             });
         });
+
+        $(document).click(function (event) {
+
+        /// If *navbar-collapse* is not among targets of event
+        if (!$(event.target).is('.navbar-collapse *')) {
+
+        /// Collapse every *navbar-collapse*
+        $('.navbar-collapse').collapse('hide');
+            }
+        });
     </script>
+
+    
 </body>
 
 </html>
