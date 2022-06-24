@@ -48,12 +48,12 @@ body {
     font-size: 3.7rem;
 }
 
-/*
+/* 
 .navbar.scrolled {
     background: #ffffff;
     transition: background 450ms;
-}
-*/
+} */
+
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
@@ -86,6 +86,16 @@ nav:hover {
     transition: background 450ms;
     
 }
+
+.navbar {
+    --bs-navbar-color: rgba(255, 255, 255, 0);
+}
+
+
+.navbar-toggler:focus {
+    color: #ffffff00;
+}
+
 
 #mainFooter h2 {
     color: #fb7b57;
