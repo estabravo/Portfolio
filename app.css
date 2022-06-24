@@ -108,3 +108,9 @@ nav:hover {
     font-weight: 100;
     font-size: 1.7rem;
 }
+
+  .collapsing {
+    -webkit-transition: height .3s ease-out;
+         -o-transition: height .3s ease-out;
+            transition: height .3s ease-out;
+  }
