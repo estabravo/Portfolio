@@ -49,24 +49,18 @@ body {
     font-size: 3.7rem;
 }
 
-/* 
-.navbar.scrolled {
-    background: #ffffff;
-    transition: background 450ms;
-} */
-
-
 .icon {
     width: 50px;
     margin: 10px;
 }
+
 
 .contentOne {
     margin-top: 50px;
 }
 
 nav:not(:hover) {
-    background: rgba(255, 255, 255, 0.93);
+    background: rgba(255, 255, 255, 0.89);
     transition: background 450ms;
 }
 
@@ -75,6 +69,8 @@ nav:hover {
     transition: background 450ms;
     
 }
+
+
 
 .navbar {
     --bs-navbar-color: rgba(255, 255, 255, 0);
@@ -96,7 +92,7 @@ nav:hover {
     font-size: 1.7rem;
 }
 
-  .collapsing {
+.collapsing {
     -webkit-transition: height .3s ease-out;
          -o-transition: height .3s ease-out;
             transition: height .3s ease-out;
@@ -117,7 +113,7 @@ nav:hover {
   }
 
 
-  .reveal.active{
+.reveal.active{
     transform: translateY(0);
     opacity: 1;
   }
@@ -134,10 +130,13 @@ nav:hover {
     #mainFooter h2 {
         font-size: 1.2rem;
     }
-
+    nav {
+        background-color: rgba(255, 255, 255) !important;
+    }
 }
 
 html, body {
     overflow-x: hidden;
     margin-left: calc(100vw - 100%);
 }
+
