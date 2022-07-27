@@ -1,6 +1,7 @@
 body {
     background: #ffffff;
     font-family: 'Noto Sans', sans-serif;
+    color: #071D27;
 
 }
 
@@ -11,7 +12,7 @@ body {
 }
 
 .blurb p {
-    color: #2a2a2a;
+    color: #071D27;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
@@ -28,7 +29,7 @@ body {
 }
 
 #mainNavbar .nav-link {
-    color: black;
+    color: #071D27;
 }
 
 #mainNavbar .nav-link:hover {
@@ -36,7 +37,7 @@ body {
 }
 
 #mainNavbar .navbar-brand {
-    color: #fb7b57;
+    color: #004B6A;
     font-size: 1.5rem;
 }
 
