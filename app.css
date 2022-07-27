@@ -1,8 +1,6 @@
 body {
     background: #ffffff;
     font-family: 'Noto Sans', sans-serif;
-    color: #071D27;
-
 }
 
 .blurb h2 {
@@ -11,11 +9,19 @@ body {
    font-size: 2.5rem;
 }
 
+
+
 .blurb p {
     color: #071D27;
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 2;
+
+}
+
+#hume {
+    color: #004B6A !important;
+    margin-bottom: 1.5rem !important;
 }
 
 .content {
@@ -140,4 +146,6 @@ html, body {
     overflow-x: hidden;
     margin-left: calc(100vw - 100%);
 }
+
+
 
