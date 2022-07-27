@@ -45,6 +45,7 @@ body {
 #mainNavbar .navbar-brand {
     color: #004B6A;
     font-size: 1.5rem;
+    margin: 6px 0px 6px;
 }
 
 #headingGroup span {
