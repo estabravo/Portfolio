@@ -9,6 +9,9 @@ body {
    font-size: 2.5rem;
 }
 
+.mobile {
+    width: 81%;
+}
 
 .blurb p {
     color: #071D27;
@@ -51,9 +54,9 @@ body {
     color: #909AB2;
 }
 
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 3.7rem;
+#headingGroup p {
+    font-weight: 400;
+    font-size: 1.125rem;
 }
 
 .icon {
