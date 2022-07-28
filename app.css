@@ -84,9 +84,22 @@ body {
     margin: 30px;
 }
 
+.icon:hover {
+    position: relative;
+    transform: translate(0px, -10px);
+    transition: .3s all ease;
+}
+.icon:not(:hover) {
+    position: relative;
+    transform: translate(0px, 0px);
+    transition: .3s all ease;
+}
+
+
 .designP {
     width: 51%;
 }
+
 
 
 .contentOne {
