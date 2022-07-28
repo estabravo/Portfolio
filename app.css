@@ -9,11 +9,24 @@ body {
    font-size: 2.5rem;
 }
 
-.mobile {
+.name-m {
     width: 81%;
 }
 
+.name-d {
+    width: 52%;
+}
+
 .blurb p {
+    color: #071D27;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2.3;
+
+}
+
+.about p {
+
     color: #071D27;
     font-weight: 300;
     font-size: 1.125rem;
