@@ -1,0 +1,197 @@
+body {
+    background: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.blurb h2 {
+   color: #004B6A;
+   font-weight: 300;
+   font-size: 2.5rem;
+}
+
+.nameM {
+    width: 81%;
+}
+
+.nameD {
+    width: 52%;
+}
+
+.blurb p {
+    color: #071D27;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2.3;
+
+}
+
+.about p {
+    color: #071D27;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2;
+
+}
+
+#hume {
+    color: #004B6A !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.nameContent {
+    margin-top: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;    
+}
+
+#mainNavbar .nav-link {
+    color: #071D27;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #909AB2;
+}
+
+#mainNavbar .navbar-brand {
+    color: #004B6A;
+    font-size: 1.5rem;
+    margin: 6px 0px 6px;
+}
+
+#headingGroup span {
+    color: #909AB2;
+}
+
+#headingGroup p {
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.designGroup {
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #004B6A;
+}
+.icon {
+    width: 50px;
+    margin: 30px;
+}
+
+.icon:hover {
+    position: relative;
+    transform: translate(0px, -10px);
+    transition: .3s all ease;
+}
+.icon:not(:hover) {
+    position: relative;
+    transform: translate(0px, 0px);
+    transition: .3s all ease;
+}
+
+
+.designP {
+    width: 51%;
+}
+
+
+
+.contentOne {
+    margin-top: 50px;
+}
+
+nav:not(:hover) {
+    background: rgba(255, 255, 255, 0.89);
+    transition: background 450ms;
+}
+
+nav:hover {
+    background: #ffffff;
+    transition: background 450ms;
+    
+}
+
+
+
+.navbar {
+    --bs-navbar-color: rgba(255, 255, 255, 0);
+}
+
+
+.navbar-toggler:focus {
+    color: #ffffff00;
+}
+
+.navbar-light .navbar-toggler {
+ color: #ffffff00;
+}
+
+
+#mainFooter h2 {
+    color: #fb7b57;
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+
+.collapsing {
+    -webkit-transition: height .3s ease-out;
+         -o-transition: height .3s ease-out;
+            transition: height .3s ease-out;
+  }
+
+
+.reveal.left {
+    position: relative;
+    transform: translate(70px,-15px);
+    opacity: 0;
+    transition: .8s all ease;
+  }
+.reveal.right {
+    position: relative;
+    transform: translate(-70px,-15px);
+    opacity: 0;
+    transition: .8s all ease;
+  }
+
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  @media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 300;
+        font-size: 2.7rem;
+        overflow: hidden !important;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+    #mainFooter h2 {
+        font-size: 1.2rem;
+    }
+    nav {
+        background-color: rgba(255, 255, 255) !important;
+    }
+    .designGroup {
+        font-size: 2rem;
+    }
+    .designP {
+        width: 48%;
+    }
+}
+
+html, body {
+    overflow-x: hidden;
+    margin-left: calc(100vw - 100%);
+}
+
+
+
