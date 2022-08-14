@@ -3,21 +3,15 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.heroD {
-    background-image: url(./assets/imgs/about-heroD.jpg);
+.heroA {
+    background-image: url(/assets/imgs/about-heroD.jpg);
     background-size: cover;
     height: 113vh;
-    width: 100vw;
+    width: 110vw;
     background-position: center;
 }
 
-.heroM {
-    background-image: url(./assets/imgs/about-heroM.jpg);
-    background-size: cover;
-    height: 113vh;
-    width: 100vw;
-    background-position: center;
-}
+
 
 .blurb h2 {
    color: #004B6A;
@@ -45,8 +39,8 @@ body {
     color: #071D27;
     font-weight: 300;
     font-size: 1.125rem;
-    line-height: 2;
-
+    line-height: 2.2;
+    margin-top: 8%;
 }
 
 #hume {
@@ -95,9 +89,15 @@ body {
     font-size: 1.8rem;
     color: #004B6A;
 }
+
 .icon {
     width: 50px;
     margin: 30px;
+}
+
+.iconF{
+    width: 50px;
+    margin-top: 30px
 }
 
 .icon:hover {
@@ -149,10 +149,8 @@ nav:hover {
 }
 
 
-#mainFooter h2 {
-    color: #fb7b57;
-    font-weight: 100;
-    font-size: 1.7rem;
+#mainFooter {
+
 }
 
 .collapsing {
@@ -201,6 +199,27 @@ nav:hover {
     }
     .designP {
         width: 48%;
+    }
+
+    .about p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1.32rem;
+        line-height: 2.1;
+        margin-top: 8%;
+    }
+
+    .heroA {
+        background-image: url(/assets/imgs/about-heroM.jpg);
+        background-size: cover;
+        height:173vh;
+        width: 110vw;
+        background-position: center;
+    }
+    .iconF{
+        width: 50px;
+        margin: 50px;
+
     }
 }
 
