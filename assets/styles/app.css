@@ -41,6 +41,13 @@ body {
     font-size: 1.125rem;
     line-height: 2.2;
     margin-top: 8%;
+    /* letter-spacing: .02rem; */
+}
+
+#quote p {
+    color: #004B6A;
+    font-weight: 300;
+    font-size: 1.15rem;
 }
 
 #hume {
