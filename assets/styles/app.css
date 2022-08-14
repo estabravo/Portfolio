@@ -3,6 +3,22 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.heroD {
+    background-image: url(./assets/imgs/about-heroD.jpg);
+    background-size: cover;
+    height: 113vh;
+    width: 100vw;
+    background-position: center;
+}
+
+.heroM {
+    background-image: url(./assets/imgs/about-heroM.jpg);
+    background-size: cover;
+    height: 113vh;
+    width: 100vw;
+    background-position: center;
+}
+
 .blurb h2 {
    color: #004B6A;
    font-weight: 300;
