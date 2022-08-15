@@ -306,5 +306,7 @@ html, body {
     margin-left: calc(100vw - 100%);
 }
 
-
+.navbar-light .navbar-toggler {
+    border-color: #ffffff00;
+}
 
