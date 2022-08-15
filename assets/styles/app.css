@@ -142,25 +142,7 @@ nav:hover {
 
 
 
-.navbar {
-    --bs-navbar-color: rgba(255, 255, 255, 0);
-}
 
-
-.navbar-toggler:focus {
-    color: #ffffff00;
-}
-
-.navbar-light .navbar-toggler {
- color: #ffffff00;
-}
-
-
-.collapsing {
-    -webkit-transition: height .3s ease-out;
-         -o-transition: height .3s ease-out;
-            transition: height .3s ease-out;
-  }
 
 
 .reveal.left {
@@ -306,7 +288,118 @@ html, body {
     margin-left: calc(100vw - 100%);
 }
 
+/* 
 .navbar-light .navbar-toggler {
     border-color: #ffffff00;
 }
 
+.navbar {
+    --bs-navbar-color: rgba(255, 255, 255, 0);
+}
+
+
+.navbar-toggler:focus {
+    color: #ffffff00;
+}
+
+.navbar-light .navbar-toggler {
+ color: #ffffff00;
+}
+
+
+.collapsing {
+    -webkit-transition: height .3s ease-out;
+         -o-transition: height .3s ease-out;
+            transition: height .3s ease-out;
+  } */
+
+.navbar-toggler {
+    width: 27px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    position: relative;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 2.28px;
+    width: 100%;
+    background: #071D27;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+    position: absolute;
+    top: 0px;
+    transform: rotate(0deg);
+    background: #071D27;
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    filter: alpha(opacity=100);
+    background: #071D27;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    position: absolute;
+    top: 20px;
+    transform: rotate(0deg);
+    background: #071D27;
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+    top: inherit;
+    transform: rotate(135deg);
+    background: linear-gradient( 263deg, #8A1430 0%, #062E52 100% );
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    top: inherit;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    top: inherit;
+    transform: rotate(-135deg);
+    background: linear-gradient( 263deg, #8A1430 0%, #062E52 100% );
+}
+
+/* Color of 3 lines */
+
+.navbar-toggler.collapsed .toggler-icon {
+    /* background: linear-gradient( 263deg, #8A1430 0%, #062E52 100% ); */
+    background-color: #071D27;
+}
