@@ -204,11 +204,19 @@ nav:hover {
         width: 48%;
     }
 
+    .blurb p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1.05rem;
+        line-height: 2.2;
+    
+    }
+
     .about p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1.2rem;
-        line-height: 2;
+        font-size: 1.05rem;
+        line-height: 2.1;
         margin-top: 8%;
     }
 
@@ -239,10 +247,17 @@ nav:hover {
         font-size: 1.5rem;
         color: #004B6A;
     }
+    .blurb p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 2.1;
+    
+    }
     .about p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 2;
         margin-top: 8%;
     }
@@ -255,13 +270,13 @@ nav:hover {
         width: 110vw;
         background-position: center;
     }
-    .about p {
+    /* .about p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 2;
         margin-top: 8%;
-    }
+    } */
 }
 @media (max-width: 575px) {
     .heroA {
