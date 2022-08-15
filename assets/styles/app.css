@@ -186,7 +186,7 @@ nav:hover {
     opacity: 1;
   }
 
-  @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     #headingGroup h1 {
         font-weight: 300;
         font-size: 2.7rem;
@@ -217,9 +217,9 @@ nav:hover {
     }
 
     .heroA {
-        background-image: url(/assets/imgs/about-heroM.jpg);
+        background-image: url(/assets/imgs/about-heroT.jpg);
         background-size: cover;
-        height:173vh;
+        height:143vh;
         width: 110vw;
         background-position: center;
     }
@@ -227,6 +227,34 @@ nav:hover {
         width: 50px;
         margin: 50px;
 
+    }
+}
+
+@media (max-width: 991px) {
+    .heroA {
+        background-image: url(/assets/imgs/about-heroT.jpg);
+        background-size: cover;
+        height:163vh;
+        width: 110vw;
+        background-position: center;
+    }
+}
+@media (max-width: 767px) {
+    .heroA {
+        background-image: url(/assets/imgs/about-heroT.jpg);
+        background-size: cover;
+        height:143vh;
+        width: 110vw;
+        background-position: center;
+    }
+}
+@media (max-width: 575px) {
+    .heroA {
+        background-image: url(/assets/imgs/about-heroM.jpg);
+        background-size: cover;
+        height:173vh;
+        width: 110vw;
+        background-position: center;
     }
 }
 
