@@ -156,10 +156,6 @@ nav:hover {
 }
 
 
-#mainFooter {
-
-}
-
 .collapsing {
     -webkit-transition: height .3s ease-out;
          -o-transition: height .3s ease-out;
@@ -211,8 +207,8 @@ nav:hover {
     .about p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1.32rem;
-        line-height: 2.1;
+        font-size: 1.2rem;
+        line-height: 2;
         margin-top: 8%;
     }
 
@@ -238,6 +234,18 @@ nav:hover {
         width: 110vw;
         background-position: center;
     }
+    .designGroup {
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: #004B6A;
+    }
+    .about p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 2;
+        margin-top: 8%;
+    }
 }
 @media (max-width: 767px) {
     .heroA {
@@ -246,6 +254,13 @@ nav:hover {
         height:143vh;
         width: 110vw;
         background-position: center;
+    }
+    .about p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 2;
+        margin-top: 8%;
     }
 }
 @media (max-width: 575px) {
