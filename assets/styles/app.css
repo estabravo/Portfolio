@@ -270,13 +270,7 @@ nav:hover {
         width: 110vw;
         background-position: center;
     }
-    /* .about p {
-        color: #071D27;
-        font-weight: 300;
-        font-size: 1rem;
-        line-height: 2;
-        margin-top: 8%;
-    } */
+
 }
 @media (max-width: 575px) {
     .heroA {
@@ -286,6 +280,25 @@ nav:hover {
         width: 110vw;
         background-position: center;
     }
+    #headingGroup p {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    .blurb p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 2.1;
+    
+    }
+    .about p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 2;
+        margin-top: 8%;
+    }
+    
 }
 
 html, body {
