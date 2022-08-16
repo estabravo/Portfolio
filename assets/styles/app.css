@@ -129,7 +129,7 @@ body {
     margin-top: 50px;
 }
 
-nav:not(:hover) {
+nav {
     background: rgba(255, 255, 255, 0.89);
     transition: background 450ms;
 }
@@ -137,8 +137,24 @@ nav:not(:hover) {
 nav:hover {
     background: #ffffff;
     transition: background 450ms;
-    
 }
+
+
+
+/* .navbar-collapse {
+    background: #ffffff !important;
+    transition: background 450ms;
+} */
+
+/* nav:not(:hover) {
+    background: rgba(255, 255, 255, 0.89);
+    transition: background 450ms;
+}
+
+nav:hover {
+    background: #ffffff;
+    transition: background 450ms;
+} */
 
 
 
@@ -176,9 +192,10 @@ nav:hover {
     #mainFooter h2 {
         font-size: 1.2rem;
     }
-    nav {
+    /* nav {
         background-color: rgba(255, 255, 255) !important;
-    }
+    } */
+
     .designGroup {
         font-size: 2rem;
     }
@@ -252,6 +269,10 @@ nav:hover {
         width: 110vw;
         background-position: center;
     }
+    nav {
+        background: rgba(255, 255, 255, 1);
+        transition: background 450ms;
+    }
 
 }
 @media (max-width: 575px) {
@@ -262,6 +283,8 @@ nav:hover {
         width: 110vw;
         background-position: center;
     }
+
+ 
     #headingGroup p {
         font-weight: 400;
         font-size: 1.2rem;
@@ -296,22 +319,26 @@ html, body {
 .navbar {
     --bs-navbar-color: rgba(255, 255, 255, 0);
 }
+*/
 
-
-.navbar-toggler:focus {
+/* .navbar-toggler:focus {
     color: #ffffff00;
+} */
+nav:focus {
+    color: #ffffff89;
 }
 
+/*
 .navbar-light .navbar-toggler {
  color: #ffffff00;
 }
-
+*/
 
 .collapsing {
     -webkit-transition: height .3s ease-out;
          -o-transition: height .3s ease-out;
             transition: height .3s ease-out;
-  } */
+  } 
 
 .navbar-toggler {
     width: 27px;
