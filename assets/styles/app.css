@@ -219,6 +219,11 @@ nav:hover {
         margin-top: 8%;
     }
 
+    .nameD {
+        width: 58.5%;
+    }
+    
+
     .heroA {
         background-image: url(/assets/imgs/about-heroT.jpg);
         background-size: cover;
@@ -260,6 +265,10 @@ nav:hover {
         line-height: 2;
         margin-top: 8%;
     }
+    .nameD {
+        width: 65%;
+    }
+    
 }
 @media (max-width: 767px) {
     .heroA {
@@ -273,6 +282,10 @@ nav:hover {
         background: rgba(255, 255, 255, 1);
         transition: background 450ms;
     }
+    .nameM {
+        width: 77%;
+    }
+    
 
 }
 @media (max-width: 575px) {
