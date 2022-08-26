@@ -180,7 +180,7 @@ nav:hover {
     opacity: 1;
   }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     #headingGroup h1 {
         font-weight: 300;
         font-size: 2.7rem;
@@ -214,7 +214,7 @@ nav:hover {
     .about p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1.05rem;
+        font-size: 1.14rem;
         line-height: 2.1;
         margin-top: 8%;
     }
@@ -227,6 +227,7 @@ nav:hover {
     .heroA {
         background-image: url(/assets/imgs/about-heroT.jpg);
         background-size: cover;
+        /* height:143vh; */
         height:143vh;
         width: 110vw;
         background-position: center;
@@ -261,7 +262,7 @@ nav:hover {
     .about p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1rem;
+        font-size: 1.16rem;
         line-height: 2;
         margin-top: 8%;
     }
@@ -281,6 +282,13 @@ nav:hover {
     nav {
         background: rgba(255, 255, 255, 1);
         transition: background 450ms;
+    }
+    .about p {
+        color: #071D27;
+        font-weight: 300;
+        font-size: 1.18rem;
+        line-height: 2;
+        margin-top: 8%;
     }
     .nameM {
         width: 77%;
