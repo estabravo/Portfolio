@@ -80,30 +80,45 @@
                         <h2 class="text-center">Questions <span class="align-middle">⬤</span> Feedback <span class="align-middle">⬤</span> Hire me</h2>
                     </div>
                 </div>
+                <form id="contactForm" data-sb-form-api-token="75525d25-9ec7-44b1-9539-b9f21695d91e">
                 <div class="">
                     <div class="row justify-content-center mt-5">
                         <div class="col-11">
-                            <div class="m-auto py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
-                                <!-- <label for="exampleFormControlInput1" class="form-label"></label> -->
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                            <div class="m-auto px-xl-4 py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
+                                <label for="name" class="form-label d-none"></label>
+                                <input type="text" class="form-control fields" id="name" placeholder="Name" data-sb-validations="required">
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                             </div>
-                            <div class="m-auto py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
-                                <!-- <label for="exampleFormControlInput1" class="form-label"></label> -->
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                            <div class="m-auto px-xl-4 py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
+                                <label for="emailAddress" class="form-label d-none"></label>
+                                <input type="email" class="form-control fields" id="emailAddress" placeholder="Email" data-sb-validations="required, email">
+                                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
                             </div>
-                            <div class="m-auto py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
-                                <!-- <label for="exampleFormControlTextarea1" class="form-label"></label> -->
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" placeholder="Let's talk about your awesome work!"></textarea>
+                            <div class="m-auto px-xl-4 py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
+                                <label for="message" class="form-label d-none"></label>
+                                <textarea class="form-control msg" type="text" id="message" rows="8" placeholder="" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                             </div>
-                            <div class="m-auto py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
-                                <button type="submit" class="btn  my-3">Send</button>
+                            <!-- Form submissions success message -->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">Form submission successful!</div>
+                            </div>
+  
+                            <!-- Form submissions error message -->
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                            </div>
+                            
+                            <!-- Sbmit button -->
+                            <div class="m-auto px-xl-4 py-3 col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
+                                <button type="submit" class="btn disabled my-3" id="submitButton">Send</button>
                             </div>
                         </div>
                         
                     </div>
-                    
-                    
                 </div>
+            </form>
             </div>
         </div>
         
@@ -125,6 +140,10 @@
                 </div>
         </footer>
     </section>
+    
+    <!-- SB Forms JS -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      <script
      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"

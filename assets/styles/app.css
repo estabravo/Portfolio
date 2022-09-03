@@ -194,10 +194,6 @@ nav:hover {
    
   }
 
-  /* button::before {
-    z-index: 1;
-  } */
-
   /* .btn::after {
     content: attr(data);
     font-size: 16px;
@@ -206,6 +202,43 @@ nav:hover {
     color: transparent;
     transition: 200ms
   } */
+
+.form-control.fields {
+    border: none;
+    border-bottom: 1px solid #071D27 !important;
+    border-radius: 0;
+    width: 85%;
+    /* font-weight: 200;
+    font-size: 1.2rem; */
+    padding-left: none;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+input[type="email" i] {
+    padding: 1px 2px;
+}
+textarea[class="form-control" i] {
+    padding: 1px 2px;
+}
+
+
+
+
+
+.form-control.msg {
+    border: 1.3px solid #8A97B8
+    padding-left: none;
+    
+}
+
+.form-control{
+    font-weight: 200;
+    font-size: 1.15rem;
+    font-family: 'Noto Sans', sans-serif !important;
+    letter-spacing: .04rem;
+}
 
 
 /* .navbar-collapse {
@@ -312,6 +345,12 @@ nav:hover {
         display: flex;
         transform: translateX(335%);
     } */
+    .form-control{
+        font-weight: 200;
+        font-size: 1.16rem;
+        font-family: 'Noto Sans', sans-serif !important;
+        letter-spacing: .04rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -352,7 +391,12 @@ nav:hover {
         display: flex;
         transform: translateX(185%);
     } */
-    
+    .form-control{
+        font-weight: 200;
+        font-size: 1.17rem;
+        font-family: 'Noto Sans', sans-serif !important;
+        letter-spacing: .04rem;
+    }
 }
 @media (max-width: 767px) {
     .heroA {
@@ -384,6 +428,12 @@ nav:hover {
         display: flex;
         transform: translateX(83%);
     } */
+    .form-control{
+        font-weight: 200;
+        font-size: 1.18rem;
+        font-family: 'Noto Sans', sans-serif !important;
+        letter-spacing: .04rem;
+    }
 
 }
 @media (max-width: 575px) {
@@ -422,6 +472,12 @@ nav:hover {
         display: flex;
         transform: translateX(0%);
     } */
+    .form-control{
+        font-weight: 200;
+        font-size: 1.19rem;
+        font-family: 'Noto Sans', sans-serif !important;
+        letter-spacing: .04rem;
+    }
     
 }
 
