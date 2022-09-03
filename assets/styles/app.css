@@ -19,6 +19,11 @@ body {
    font-size: 2.5rem;
 }
 
+.contact h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
 .nameM {
     width: 81%;
 }
@@ -86,6 +91,14 @@ body {
     color: #909AB2;
 }
 
+.contact span {
+    /* display: flexbox; */
+    color: #b0d2ca;
+    font-size: .2em;
+    /* transform: translateY(-60%); */
+
+}
+
 #headingGroup p {
     font-weight: 400;
     font-size: 1.125rem;
@@ -139,6 +152,60 @@ nav:hover {
     transition: background 450ms;
 }
 
+/* button {
+    display: flex;
+    transform: translateX(545%);
+} */
+
+
+.btn {
+    border: none ;
+    outline: none;
+    position: relative;
+    /* border-right-color: #8A1430;
+    border-left-color: #062E52; */
+    /* border-color: linear-gradient( 263deg, #8A1430 0%, #062E52 100% ); */
+    background: linear-gradient( 163deg, #909Ab2 0%, #062E52 100% );
+    border-radius: 20rem;
+    padding: 2.35% 12%;
+    font-weight: 200;
+    font-size: 1.28rem;
+    cursor: pointer;
+    /* background: */
+    /* linear-gradient(to left,
+      #062E52 0%, #8A1430 70% , */
+      /* transparent 70%,  transparent 85%,  */
+      /* #8A1430 85%, #8A1430 100%) top/100%,
+    linear-gradient(to left, #062E52 0%, #8A1430 100%) bottom/100%; */
+  /* background-repeat:no-repeat; */
+    z-index: 1;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 2.58px;
+    right: 2.58px;
+    bottom: 2.58px;
+    left: 2.58px;
+    color: #071D27 !important;
+    background-color: white;
+    border-radius: 25rem;
+    z-index: -1; 
+   
+  }
+
+  /* button::before {
+    z-index: 1;
+  } */
+
+  /* .btn::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(to left, #00FFA3, #DC1FFF);
+   -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms
+  } */
 
 
 /* .navbar-collapse {
@@ -237,6 +304,14 @@ nav:hover {
         margin: 50px;
 
     }
+    .contact h2 {
+        font-weight: 400;
+        font-size: 2.25rem;
+    }
+    /* button {
+        display: flex;
+        transform: translateX(335%);
+    } */
 }
 
 @media (max-width: 991px) {
@@ -269,6 +344,14 @@ nav:hover {
     .nameD {
         width: 65%;
     }
+    .contact h2 {
+        font-weight: 300;
+        font-size: 2.3rem;
+    }
+    /* button {
+        display: flex;
+        transform: translateX(185%);
+    } */
     
 }
 @media (max-width: 767px) {
@@ -293,7 +376,14 @@ nav:hover {
     .nameM {
         width: 77%;
     }
-    
+    .contact h2 {
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    /* button {
+        display: flex;
+        transform: translateX(83%);
+    } */
 
 }
 @media (max-width: 575px) {
@@ -324,6 +414,14 @@ nav:hover {
         line-height: 2;
         margin-top: 8%;
     }
+    .contact h2 {
+        font-weight: 300;
+        font-size: 1.65rem;
+    }
+    /* button {
+        display: flex;
+        transform: translateX(0%);
+    } */
     
 }
 
