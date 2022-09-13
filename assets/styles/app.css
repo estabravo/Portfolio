@@ -240,6 +240,11 @@ textarea[class="form-control" i] {
     letter-spacing: .04rem;
 }
 
+footer{
+    position: end
+    bottom: 0;
+}
+
 
 /* .navbar-collapse {
     background: #ffffff !important;
@@ -328,7 +333,7 @@ nav:hover {
         background-image: url(/assets/imgs/about-heroT.jpg);
         background-size: cover;
         /* height:143vh; */
-        height:143vh;
+        height:103vh;
         width: 110vw;
         background-position: center;
     }
@@ -357,7 +362,7 @@ nav:hover {
     .heroA {
         background-image: url(/assets/imgs/about-heroT.jpg);
         background-size: cover;
-        height:163vh;
+        height:123vh;
         width: 110vw;
         background-position: center;
     }
@@ -376,7 +381,7 @@ nav:hover {
     .about p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1.16rem;
+        font-size: 1.2rem;
         line-height: 2;
         margin-top: 8%;
     }
@@ -402,7 +407,7 @@ nav:hover {
     .heroA {
         background-image: url(/assets/imgs/about-heroT.jpg);
         background-size: cover;
-        height:143vh;
+        height:153vh;
         width: 110vw;
         background-position: center;
     }
@@ -440,7 +445,7 @@ nav:hover {
     .heroA {
         background-image: url(/assets/imgs/about-heroM.jpg);
         background-size: cover;
-        height:173vh;
+        height:153vh;
         width: 110vw;
         background-position: center;
     }
