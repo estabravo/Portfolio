@@ -12,7 +12,6 @@ body {
 }
 
 
-
 .blurb h2 {
    color: #004B6A;
    font-weight: 300;
@@ -47,6 +46,12 @@ body {
     line-height: 2.2;
     margin-top: 8%;
     /* letter-spacing: .02rem; */
+}
+
+.about h2 {
+    color: #071D27;
+    font-weight: 400;
+    font-size: 1.525rem;
 }
 
 #question p{
