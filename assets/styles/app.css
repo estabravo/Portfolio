@@ -469,6 +469,9 @@ nav:hover {
         font-family: 'Noto Sans', sans-serif !important;
         letter-spacing: .04rem;
     }
+    .designPM {
+        width: 52%;
+    }
 
 }
 @media (max-width: 575px) {
