@@ -31,6 +31,16 @@ body {
     width: 52%;
 }
 
+.designPD {
+    width: 100%;
+}
+
+/* .designPM {
+    min-width: 500px;
+    overflow: auto;
+    overflow-y: hidden;
+} */
+
 .blurb p {
     color: #071D27;
     font-weight: 300;
@@ -51,7 +61,12 @@ body {
 .about h2 {
     color: #071D27;
     font-weight: 400;
-    font-size: 1.525rem;
+    font-size: 2.125rem;
+}
+.about h1 {
+    color: #071D27;
+    font-weight: 400;
+    font-size: 2.525rem;
 }
 
 #question p{
@@ -370,6 +385,7 @@ nav:hover {
         font-family: 'Noto Sans', sans-serif !important;
         letter-spacing: .04rem;
     }
+ 
 }
 
 @media (max-width: 991px) {
@@ -497,7 +513,19 @@ nav:hover {
         font-family: 'Noto Sans', sans-serif !important;
         letter-spacing: .04rem;
     }
-    
+    .designPM {
+        width: 58%;
+    }
+    .about h1 {
+        color: #071D27;
+        font-weight: 400;
+        font-size: 2.025rem;
+    }
+    .about h2 {
+        color: #071D27;
+        font-weight: 400;
+        font-size: 1.725rem;
+    }
 }
 
 html, body {
