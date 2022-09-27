@@ -69,6 +69,37 @@ body {
     font-size: 2.525rem;
 }
 
+.about ol {
+    color: #071D27;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2.2;
+    margin-top: 8%;
+    /* letter-spacing: .02rem; */
+}
+
+.bubble {
+    background-color: #E4FAFC;
+    border: 6px solid #C1E7E6;
+    border-radius: 1.2em;
+    width: 100%;
+    height: 6em !important;
+    padding: auto;
+}
+
+.bubble p {
+/* margin-top: 2% !important;
+margin-bottom: 1% !important; */
+    text-align: center;
+    color: #071D27;
+    font-weight: 300;
+    font-size: 1.225rem;
+    width: 75%;
+    /* display: flex; */
+  
+    vertical-align: center !important;
+}
+
 #question p{
     font-weight: 400;
     font-style: italic;
@@ -432,6 +463,7 @@ nav:hover {
         font-family: 'Noto Sans', sans-serif !important;
         letter-spacing: .04rem;
     }
+
 }
 @media (max-width: 767px) {
     .heroA {
@@ -472,6 +504,7 @@ nav:hover {
     .designPM {
         width: 52%;
     }
+
 
 }
 @media (max-width: 575px) {
