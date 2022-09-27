@@ -49,6 +49,11 @@ body {
     /* letter-spacing: .02rem; */
 }
 
+#question p{
+    font-weight: 400;
+    font-style: italic;
+}
+
 #quote p {
     color: #004B6A;
     font-weight: 300;
@@ -89,6 +94,10 @@ body {
 
 #headingGroup span {
     color: #909AB2;
+}
+
+#titleGroup span {
+    font-weight: 400;
 }
 
 .contact span {
