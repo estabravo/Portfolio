@@ -102,9 +102,8 @@ margin-bottom: 1% !important; */
     color: #071D27;
     font-weight: 300;
     font-size: 1.225rem;
-    width: 75%;
+    width: 94%;
     /* display: flex; */
-  
     vertical-align: center !important;
 }
 
@@ -570,6 +569,14 @@ nav:hover {
         font-weight: 400;
         font-size: 1.725rem;
     }
+    .bubble p {
+            text-align: center;
+            color: #071D27;
+            font-weight: 300;
+            font-size: 1.085rem;
+            width: 94%;
+            vertical-align: center !important;
+        }
 }
 
 html, body {
