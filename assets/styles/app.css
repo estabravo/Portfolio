@@ -110,6 +110,7 @@ margin-bottom: 1% !important; */
 #question p{
     font-weight: 400;
     font-style: italic;
+    font-size: 1.425rem;
 }
 
 #quote p {
@@ -472,6 +473,11 @@ nav:hover {
         font-family: 'Noto Sans', sans-serif !important;
         letter-spacing: .04rem;
     }
+    #question p{
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.325rem;
+    }
 
 }
 @media (max-width: 767px) {
@@ -513,7 +519,11 @@ nav:hover {
     .designPM {
         width: 52%;
     }
-
+    #question p{
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.225rem;
+    }
 
 }
 @media (max-width: 575px) {
