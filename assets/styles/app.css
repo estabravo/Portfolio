@@ -11,6 +11,9 @@ body {
     background-position: center;
 }
 
+.gif {
+    border-radius: 9%;
+}
 
 .blurb h2 {
    color: #004B6A;
