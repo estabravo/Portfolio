@@ -214,7 +214,8 @@ margin-bottom: 1% !important; */
 
 .icon {
     width: 50px;
-    margin: 30px;
+    /* margin: 30px; */
+    margin: 4%;
 }
 
 .iconF{
