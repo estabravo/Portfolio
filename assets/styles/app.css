@@ -20,6 +20,22 @@ body {
    font-weight: 300;
    font-size: 2.5rem;
 }
+.blurb a {
+   color: #004B6A;
+   font-weight: 300;
+   font-size: 2.5rem;
+   text-decoration: none;
+}
+.blurb a:hover {
+    opacity: 70%;
+    transition: 400ms all ease;
+    cursor: pointer;
+}
+.blurb a:not(:hover) {
+    opacity: 100%;
+    transition: 400ms all ease;
+    cursor: default;
+}
 
 .contact h2 {
     font-weight: 400;
@@ -146,12 +162,27 @@ margin-bottom: 1% !important; */
 
 #mainNavbar .nav-link:hover {
     color: #909AB2;
+    transition: 400ms all ease;
+}
+#mainNavbar .nav-link:not(:hover) {
+    color: #071D27;
+    transition: 400ms all ease;
 }
 
 #mainNavbar .navbar-brand {
     color: #004B6A;
     font-size: 1.5rem;
     margin: 6px 0px 6px;
+}
+#mainNavbar .navbar-brand:not(:hover) {
+    color: #004B6A;
+    font-size: 1.5rem;
+    margin: 6px 0px 6px;
+    transition: 400ms all ease;
+}
+#mainNavbar .navbar-brand:hover {
+    color: #909AB2;
+    transition: 400ms all ease;
 }
 
 #headingGroup span {
@@ -222,6 +253,10 @@ nav {
 
 nav:hover {
     background: #ffffff;
+    transition: background 450ms;
+}
+nav:not(:hover) {
+    background: rgba(255, 255, 255, 0.89);
     transition: background 450ms;
 }
 
@@ -366,6 +401,10 @@ nav:hover {
     }
     .blurb h2 {
         font-size: 2rem;
+    }
+    .blurb a {
+        font-size: 2rem;
+        text-decoration: none;
     }
     #mainFooter h2 {
         font-size: 1.2rem;
