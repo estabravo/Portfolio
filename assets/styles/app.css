@@ -218,6 +218,19 @@ margin-bottom: 1% !important; */
     margin: 4%;
 }
 
+.iconT{
+    height: 4rem;
+    /* margin: 30px; */
+    margin: 4%;
+}
+
+.iconC {
+    height: 4.95rem !important;
+    /* margin: 30px; */
+    margin-top: auto;
+    
+}
+
 .iconF{
     width: 50px;
     margin-top: 30px
@@ -758,3 +771,193 @@ nav:focus {
     /* background: linear-gradient( 263deg, #8A1430 0%, #062E52 100% ); */
     background-color: #071D27;
 }
+
+
+
+.toggle-button-cover {
+    /* display: table-cell; */
+    position: relative;
+    width: 12rem;
+    /* height: 140px; */
+    height: 3em;
+    box-sizing: border-box;
+  }
+  
+  .button-cover {
+    /* height: 100px; */
+    height: 100%;
+    /* margin: 20px; */
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    /* box-shadow: 0 10px 20px -8px #c5d6d6; */
+    border-radius: 4px;
+  }
+  
+  .button-cover:before {
+    /* counter-increment: button-counter;
+    content: counter(button-counter); */
+    position: relative;
+    right: 0;
+    bottom: 0;
+    color: #d7e3e3;
+    /* font-size: 12px;
+    line-height: 1; */
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2.2;
+    padding: 5px;
+  }
+  
+  .button-cover,
+  .knobs,
+  .layer {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+  }
+  
+  .button {
+    position: relative;
+    top: 34%;
+    /* width: 74px; */
+    width: 101%;
+    /* height: 36px; */
+    height: 110%;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+  }
+  
+  .button.r,
+  .button.r .layer {
+    border-radius: 100px;
+  }
+  
+  .button.b2 {
+    border-radius: 2px;
+  }
+  
+  .checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .knobs {
+    z-index: 2;
+  }
+  
+  .layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+#button-18 .knobs:before,
+#button-18 .knobs span {
+  content: "UX / UI";
+  position: absolute;
+  /* top: 4px; */
+  top: 10%;
+  left: 4px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1;
+  /* font-size: 10px;
+  font-weight: bold; */
+  text-align: center;
+  /* line-height: 1; */
+  background-color: #03a9f4;
+  border-radius: 2px;
+}
+
+#button-18 .knobs:before {
+  top: 49%;
+  /* left: 8px; */
+  left: 9.4%;
+  /* width: 20px; */
+  width: 45%;
+  /* height: 10px; */
+  height: 23%;
+  margin-top: -8px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+#button-18 .knobs span {
+  /* width: 20px; */
+  width: 60%;
+  /* height: 10px; */
+  height: 80%;
+  /* padding: 9px 4px; */
+  padding: 9px 4px;
+  transition: 0.3s ease all, left 0.15s cubic-bezier(0.18, 0.39, 0.2, 1.15);
+  z-index: 1;
+}
+
+#button-18 .checkbox:active + .knobs:before {
+  left: 20px;
+  width: 70%;
+  height: 4px;
+  color: transparent;
+  margin-top: -1px;
+  background-color: #0095d8;
+  transition: 0.26s ease all;
+  overflow: hidden;
+}
+
+#button-18 .checkbox:active + .knobs span {
+  width: 86%;
+}
+
+#button-18 .checkbox:checked:active + .knobs:before {
+  left: auto;
+  right: 40px;
+  background-color: rgb(84, 141, 97);
+}
+
+#button-18 .checkbox:checked:active + .knobs span {
+  margin-left: -36%;
+}
+
+#button-18 .checkbox:checked + .knobs:before {
+  content: "Front-End";
+  /* left: 47px; */
+  left: 45%;
+}
+
+#button-18 .checkbox:checked + .knobs span {
+  /* left: 42px; */
+  left: 37.5%;
+  background-color: #3cc06c;
+}
+
+#button-18 .checkbox:checked ~ .layer {
+  background-color: #edfceb;
+}
+
+@keyframes fade-out {
+    from {
+      opacity: 100%;
+    }
+    to {
+      opacity: 0%;
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
