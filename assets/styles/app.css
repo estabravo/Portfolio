@@ -225,9 +225,10 @@ margin-bottom: 1% !important; */
 }
 
 .iconC {
-    height: 4.95rem !important;
+    height: 4.75rem !important;
     /* margin: 30px; */
-    margin-top: auto;
+    margin-top: .1em;
+    /* margin-bottom: 2.15em; */
     
 }
 
