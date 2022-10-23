@@ -225,11 +225,14 @@ margin-bottom: 1% !important; */
 }
 
 .iconC {
-    height: 4.75rem !important;
+    height: 4.25rem !important;
     /* margin: 30px; */
-    margin-top: .1em;
-    /* margin-bottom: 2.15em; */
-    
+    margin-top: -.2rem;
+
+    /* padding-top: 1rem; */
+}
+.tools {
+    max-height: 6.5rem;
 }
 
 .iconF{
@@ -401,6 +404,12 @@ nav:hover {
     opacity: 0;
     transition: .8s all ease;
   }
+.reveal.fade {
+    position: relative;
+    /* transform: translate(-70px,-15px); */
+    opacity: 0;
+    transition: .6s all ease;
+  }
 
 
 .reveal.active{
@@ -483,6 +492,13 @@ nav:hover {
         font-family: 'Noto Sans', sans-serif !important;
         letter-spacing: .04rem;
     }
+    /* .iconC {
+        height: 5.75rem !important; 
+ 
+         margin-top: 0rem; 
+       
+        
+    } */
  
 }
 
