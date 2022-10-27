@@ -203,7 +203,7 @@ margin-bottom: 1% !important; */
 
 #headingGroup p {
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
 }
 
 .designGroup {
@@ -518,7 +518,8 @@ nav:hover {
     .blurb p {
         color: #071D27;
         font-weight: 300;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        /* font-size: 1rem; */
         line-height: 2.1;
     
     }
@@ -571,6 +572,9 @@ nav:hover {
         font-size: 1.18rem;
         line-height: 2;
         margin-top: 8%;
+    }
+    .blurb p {
+        font-size: 1.18rem;
     }
     .nameM {
         width: 77%;
@@ -652,6 +656,10 @@ nav:hover {
     .about h2 {
         color: #071D27;
         font-weight: 400;
+        font-size: 1.725rem;
+    }
+    .blurb h2 {
+               font-weight: 400;
         font-size: 1.725rem;
     }
     .bubble p {
