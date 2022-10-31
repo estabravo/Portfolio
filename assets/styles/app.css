@@ -221,13 +221,16 @@ margin-bottom: 1% !important; */
 .iconT{
     height: 4rem;
     /* margin: 30px; */
-    margin: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .iconC {
     height: 4.15rem !important;
     /* margin: 30px; */
-    margin-top: -.2rem;
+    margin-top: .3rem;
 
     /* padding-top: 1rem; */
 }
@@ -386,11 +389,6 @@ nav:hover {
     background: #ffffff;
     transition: background 450ms;
 } */
-
-
-
-
-
 
 .reveal.left {
     position: relative;
