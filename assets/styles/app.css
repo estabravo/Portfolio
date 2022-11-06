@@ -298,7 +298,8 @@ nav:not(:hover) {
     border-radius: 20rem;
     padding: 2.35% 12%;
     font-weight: 200;
-    font-size: 1.28rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
     cursor: pointer;
     /* background: */
     /* linear-gradient(to left,
