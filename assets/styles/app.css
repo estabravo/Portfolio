@@ -259,8 +259,10 @@ margin-bottom: 1% !important; */
     width: 51%;
 }
 
-.surv {
-
+#loge .carousel-control-next,
+#loge .carousel-control-prev, 
+#loge .carousel-indicators {
+    filter: invert(100%);
 }
 
 .contentOne {
